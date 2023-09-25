@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to right, #336699 0%, #336699 100%);
+}
+body > table{
+    width: 90%;
+    /* padding: 2rem; */
+    margin: 3rem;
+    background: linear-gradient(to bottom, #ccccff 0%, #00ffcc 100%);
+}
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:90%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    /* background-color: #dddddd; */
+    /* background: linear-gradient(to right, #000099 0%, #0099ff 100%); */
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    /* background-color: #ddd; */
+    background: linear-gradient(to right, #3333ff 0%, #00ccff 100%);
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+.table1{
+    background-color: #00ccff;
+}
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
